@@ -1,0 +1,14 @@
+*{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+h1{
+    font-size: 30px;
+    color: beige;
+}
+#submit:hover{
+   background-color: black;
+}

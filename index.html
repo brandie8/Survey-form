@@ -1,0 +1,45 @@
+<DOCTYPE hmtl>
+  <html lang="en">
+    <head>
+      <meta charset UTF="8">
+      <title>Survey Form </title>
+     <link rel="stylesheet" href="styles.css">
+    
+      </head>
+      <body>
+         <h1 id="title">Survey Form</h1>
+     <p id= "description">Customer Satisfaction Survey</p>
+     <form id= "survey-form">
+<fieldset>
+  <p><label id="name-label">Enter your name:<input placeholder="name" id="name" type="text" required/></label></p>
+ <p><label id="email-label">Enter your email:<input placeholder="email" id="email" type="email" required /></label></p>
+  <p><label id="number-label">Enter your age(at time of survey):<input placeholder="number" id="number" type="number" min="18" max="100"/></label></p>
+  <label for="dropdown">Did you like the items delivered?
+    <select id="dropdown" name="dropdown">
+      <option value"">select one</option>
+      <option value"1">Yes</option>
+      <option value"2">No</select></label>
+  </fieldset>
+  <fieldset>
+    <label for="new-customer"><input id="new-customer" type="radio" value="new-customer" name="customer-type"/>New customer</label>
+    <label for="old-customer"><input id="old-customer" type="radio" value="new-customer" name="customer-type"/>Old customer</label>
+  </fieldset>
+  <fieldset>
+   <p>what items did you buy?</p>
+   <label for="shoes"><input id="shoes" type="checkbox" value="shoes"/>Shoes</label>
+  <label for="dresses"><input id="dresses" type="checkbox" value="dresses"/>Dresses</label> 
+    <label for="bags"><input id="bags" type="checkbox" value="bags"/>Bags</label> 
+     <label for="belts"><input id="belts" type="checkbox" value="belts"/>Belts</label> 
+     
+  </fieldset>
+  <fieldset>
+    <label for="comments">Please provide any additional comments
+      <textarea id="comments" name="comments" rows="4" cols="40"></textarea></label>
+  </fieldset>
+  <input id="submit" type="submit" value="submit"/>
+       </form> 
+      </body>
+    </html>
+
+
+
